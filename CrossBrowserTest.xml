@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="PruebasenChrome">
+		<parameter name="navegador" value="chrome"/>
+		<classes>
+  			<class name="Pruebas.CrossBrowserTest"/>
+		</classes>
+ 	</test> 
+	<test name="PruebasenFireFox">
+		<parameter name="navegador" value="firefox"/>
+    	<classes>
+      		<class name="Pruebas.CrossBrowserTest"/>
+   		</classes>
+  	</test> 
+</suite>
